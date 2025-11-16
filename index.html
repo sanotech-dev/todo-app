@@ -1,9 +1,29 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Todo App</title>
-  </head>
-  <body>
-    <h1>Todo App - Sanotech</h1>
-  </body>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>Sanotech Todo App</title>
+  <link rel="stylesheet" href="css/style.css ">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="title">Sanotech Todo App</h1>
+
+    <div class="input-area">
+      <input type="text" id="todo-input" placeholder="کار جدید اضافه کن...">
+      <button id="add-btn">+</button>
+    </div>
+
+    <ul id="todo-list"></ul>
+
+    <div class="filters">
+      <button data-filter="all" class="active">همه</button>
+      <button data-filter="active">فعال</button>
+      <button data-filter="completed">انجام شده</button>
+    </div>
+  </div>
+
+  <script src="js/main.js "></script>
+</body>
+</html>
