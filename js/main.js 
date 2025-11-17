@@ -86,3 +86,6 @@ filterBtns.forEach(btn => {
 
 // اجرا هنگام لود صفحه
 loadTodos();
+
+
+console.log("JS Loaded!");
